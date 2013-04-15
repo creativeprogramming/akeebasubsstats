@@ -1,7 +1,7 @@
 <?php
 /**
  * @package            Akeeba Subscriptions Stats
- * @version            3.0.10
+ * @version            0.1.0
  *
  * @author             Peter van Westen <peter@nonumber.nl>
  * @link               http://www.nonumber.nl

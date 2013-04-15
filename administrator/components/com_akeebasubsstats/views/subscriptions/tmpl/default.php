@@ -1,7 +1,7 @@
 <?php
 /**
  * @package            Akeeba Subscriptions Stats
- * @version            1.0.0
+ * @version            0.1.0
  *
  * @author             Peter van Westen <peter@nonumber.nl>
  * @link               http://www.nonumber.nl
@@ -47,6 +47,7 @@ $stacked = JFactory::getApplication()->input->getInt('stacked', 0);
 					<option<?php echo $l == $level ? ' selected="selected"' : ''; ?>><?php echo $l; ?></option>
 				<?php endforeach ?>
 			</select>
+
 			<div class="span" style="width:100%">
 				<?php renderDataTable($this->data, 'day'); ?>
 				<?php renderDataTable($this->data, 'week'); ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * @package            Akeeba Subscriptions Stats
- * @version            3.0.10
+ * @version            0.1.0
  *
  * @author             Peter van Westen <peter@nonumber.nl>
  * @link               http://www.nonumber.nl
@@ -15,17 +15,12 @@ defined('_JEXEC') or die;
 jimport('joomla.application.component.controller');
 
 /**
- * Default manager master display controller.
- *
- * @package        Joomla.Administrator
- * @subpackage     com_akeebasubsstats
- * @since          1.6
+ * Default manager master display controller
  */
 class AkeebaSubsStatsController extends JController
 {
 	/**
 	 * @var        string    The default view.
-	 * @since    1.6
 	 */
 	protected $default_view = 'default';
 
