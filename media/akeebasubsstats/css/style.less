@@ -1,0 +1,81 @@
+/**
+ * AkeebaSubsStats stylesheet
+ *
+ * @package         AkeebaSubsStats
+ * @version         1.0.0
+ *
+ * @author          Peter van Westen <peter@nonumber.nl>
+ * @link            http://www.nonumber.nl
+ * @copyright       Copyright © 2012 NoNumber All Rights Reserved
+ * @license         http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+.akeebasubsstats.akeeba-bootstrap {
+	font-size: 10pt;
+	.table td.right,
+	.table th.right {
+		text-align: right;
+	}
+	.table tr.strong td,
+	.table tr.strong th,
+	.table td.strong,
+	.table th.strong {
+		font-weight: bold;
+	}
+	.table tr.ghosted td,
+	.table tr.ghosted th,
+	.table td.ghosted,
+	.table th.ghosted {
+		color: #999999;
+		font-style: italic;
+	}
+
+	.span {
+		padding: 0 10px;
+		float: none;
+		display: inline-table;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	td.count,
+	td.amount {
+		text-align: right;
+		width: 15%;
+		white-space: nowrap;
+	}
+	td.count {
+		color: #317331;
+	}
+	td.amount {
+		color: #00468f;
+		font-weight: bold;
+	}
+	.akeebasubsstats_chart_labels > div {
+		margin: 0 2%;
+		width: 46%;
+		display: inline-block;
+	}
+	.akeebasubsstats_chart_label_count {
+		color: #317331;
+	}
+	.akeebasubsstats_chart_label_amount {
+		color: #00468f;
+		text-align: right;
+	}
+	.jqplot-table-legend-swatch-outline {
+		border: none;
+		.jqplot-table-legend-swatch {
+			border-top-width: 2px;
+			border-bottom-width: 2px;
+		}
+	}
+	.jqplot-series-hidden {
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+		text-decoration: none;
+		.jqplot-table-legend-swatch {
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+		}
+	}
+}

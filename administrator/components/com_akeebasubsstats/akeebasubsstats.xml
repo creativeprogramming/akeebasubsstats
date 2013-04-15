@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>COM_AKEEBASUBSSTATS</name>
+	<description>COM_AKEEBASUBSSTATS_DESC</description>
+	<version>0.1.0</version>
+	<creationDate>April 2013</creationDate>
+	<author>NoNumber (Peter van Westen)</author>
+	<authorEmail>peter@nonumber.nl</authorEmail>
+	<authorUrl>http://www.nonumber.nl</authorUrl>
+	<copyright>Copyright © 2012 NoNumber All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<administration>
+		<menu img="components/com_akeebasubsstats/images/icon-akeebasubsstats.png">COM_AKEEBASUBSSTATS</menu>
+	</administration>
+
+	<administration>
+		<menu>COM_AKEEBASUBSSTATS</menu>
+	</administration>
+</extension>
