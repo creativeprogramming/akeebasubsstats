@@ -87,7 +87,7 @@ class AkeebaSubsStatsModelSubscriptions extends JModelList
 		$query = $this->buildQuery('CONCAT(YEAR(s.created_on), "-", MONTH(s.created_on))', $from, $to);
 		$db->setQuery($query);
 		$rows = $db->loadObjectList();
-		$data['month'] = $this->fillEmptyDates($rows, 'month', $from, $to, 'Y-n', 'M', 'M');
+		$data['month'] = $this->fillEmptyDates($rows, 'month', $from, $to, 'Y-n', 'M', 'M (Y)');
 
 		// BY YEAR
 		$max = 5;
